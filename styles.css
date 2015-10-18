@@ -74,6 +74,13 @@ body {
 	padding: 5px 20px 20px 20px;
 	margin: 5px 10px 5px 10px;
 }
+span {
+    float: left;
+    width: 0.7em;
+    font-size: 360%;
+    font-family: algerian,courier;
+    line-height: 80%;
+}
 footer {
 	clear: left;
 	padding: 15px;
