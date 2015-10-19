@@ -52,16 +52,16 @@ body {
 	margin: 5px 10px 15px 15px;
 	border-radius: 20px;
 }
-.twitter {
+.icon-twitter {
 	list-style-image: url('twitter.png')
 }
-.facebook {
+.icon-facebook {
 	list-style-image: url('facebook.png');
 }
-.pinterest {
+.icon-pinterest {
 	list-style-image: url('pinterest.png')
 }
-.email {
+.icon-email {
 	list-style-image: url('email.png')
 }
 .poem {
@@ -81,7 +81,7 @@ span {
     font-family: algerian,courier;
     line-height: 80%;
 }
-.author {
+.poem-author {
 	text-align: right;
 	margin-right: 1.5rem;
 }
@@ -106,7 +106,7 @@ dd {
 .smalltext {
 	font-size: small;
 }
-#selected_works {
+#selected-works {
 	text-align: left;
 	padding-top: 5px;
 	margin-left: auto;
