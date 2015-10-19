@@ -7,8 +7,6 @@ header {
     width: 100%;
     margin: 0 0 4rem 0;
 	padding: 0 0 4rem 0;
-	/* position: fixed;
-	top: 0; */
 }
 h1 {
 	text-align: left;
@@ -39,7 +37,7 @@ a:hover {
 body {
 	font-family: sans-serif;
 	line-height: 1.4;
-	background-image: url("88829-wallpaper06.jpg");
+	background-image: url("background.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -52,17 +50,17 @@ body {
 	margin: 5px 10px 15px 15px;
 	border-radius: 20px;
 }
-.icon-twitter {
-	list-style-image: url('twitter.png')
+.sidebar__icon--twitter {
+	list-style-image: url('icon-twitter.png')
 }
-.icon-facebook {
-	list-style-image: url('facebook.png');
+.sidebar__icon--facebook {
+	list-style-image: url('icon-facebook.png');
 }
-.icon-pinterest {
-	list-style-image: url('pinterest.png')
+.sidebar__icon--pinterest {
+	list-style-image: url('icon-pinterest.png')
 }
-.icon-email {
-	list-style-image: url('email.png')
+.sidebar__icon--email {
+	list-style-image: url('icon-email.png')
 }
 .poem {
 	font-size: large;
@@ -74,14 +72,14 @@ body {
 	padding: 5px 20px 20px 20px;
 	margin: 5px 10px 5px 10px;
 }
-span {
+.poem__first-letter {
     float: left;
     width: 0.7em;
     font-size: 360%;
     font-family: algerian,courier;
     line-height: 80%;
 }
-.poem-author {
+.poem__author-name {
 	text-align: right;
 	margin-right: 1.5rem;
 }
